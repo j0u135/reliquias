@@ -1,0 +1,43 @@
+/* Needed css */
+html,
+body {
+  width: 100%; /* This is needed :( */
+  background-color: #FFF;
+  background: url("../../public/juego/02_bg_juego.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.content {
+  width: 38%;
+  text-align: center;
+  margin: auto;
+}
+
+.header-container{
+  padding-left: 18%;
+  padding-right: 18%;
+
+}
+
+.controls-container {
+  display: flex;
+}
+
+.button {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+}
