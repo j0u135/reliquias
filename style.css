@@ -48,7 +48,6 @@ body {
 @media only screen and (max-width: 425px) {
   body {
     background-image: url(public/home/01_m_bg_home.png);
-    background-attachment: fixed;
 }
 
 .content{
