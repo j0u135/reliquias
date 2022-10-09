@@ -19,6 +19,7 @@ body {
 }
 
 .controls-container {
+  justify-content: center;
   display: flex;
 }
 
@@ -28,6 +29,7 @@ body {
 
 .footer {
   position: fixed;
+  width: 100%;
   bottom: 0;
 }
 

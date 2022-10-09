@@ -42,8 +42,9 @@ width: 100%;
 
 .footer {
   position: absolute;
-  bottom: 0;
   width: 100%;
+  bottom: 0;
+  height: 1.5rem;
 }
 
 @media only screen and (min-width: 425px) {
@@ -85,11 +86,11 @@ width: 100%;
 }
 
 .regresar-container{
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 5%;
 }
 
 .footer{
   position: relative;
 }
+
 }

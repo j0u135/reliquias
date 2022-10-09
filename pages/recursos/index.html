@@ -13,10 +13,18 @@
   <div>
     <div class="content">
       <div class="header-container">
-        <img src="/public/recursos/03_header.png" style="width: 100%;" />
+        <picture>
+          <source srcset="/public/recursos/03_m_header.png" media="(max-width: 425px)">
+          <source srcset="/public/recursos/03_header.png">
+          <img src="/public/recursos/03_header.png" style="width: 100%;" />
+      </picture>
       </div>
       <div class="instruction-container">
-        <img src="/public/recursos/03_instruccion.png" style="width: 100%;" />
+        <picture>
+          <source srcset="/public/recursos/03_m_instruccion.png" media="(max-width: 425px)">
+          <source srcset="/public/recursos/03_instruccion.png">
+          <img src="/public/recursos/03_instruccion.png" style="width: 100%;" />
+      </picture>
       </div>
       <div class="controls-container">
         <div class="button">
@@ -34,7 +42,11 @@
     </div>
   </div>
   <div class="footer">
-    <img src="/public/home/footer.png" style="width: 100%; position: relative; top:5px" />
+    <picture>
+      <source srcset="/public/home/footer_mob.png" media="(max-width: 425px)">
+      <source srcset="/public/home/footer.png">
+      <img srcset="/public/home/footer.png" style="width: 100%; position: relative; top:5px">
+  </picture>
   </div>
 </body>
 

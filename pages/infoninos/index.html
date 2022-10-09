@@ -13,7 +13,11 @@
   <div>
     <div class="content">
       <div class="header-container">
-        <img src="/public/infoninos/06_header.png" />
+        <picture>
+          <source srcset="/public/infoninos/06_m_header.png" media="(max-width: 425px)">
+          <source srcset="/public/infoninos/06_header.png">
+          <img src="/public/infoninos/06_header.png" style="width: 100%;" />
+      </picture>
       </div>
       <div class="controls-container">
         <div class="button">
@@ -42,7 +46,11 @@
 
   </div>
   <div class="footer">
-    <img src="/public/home/footer.png" style="width: 100%; position: relative; top:5px" />
+    <picture>
+      <source srcset="/public/home/footer_mob.png" media="(max-width: 425px)">
+      <source srcset="/public/home/footer.png">
+      <img srcset="/public/home/footer.png" style="width: 100%; position: relative; top:5px">
+  </picture>
   </div>
 </body>
 
