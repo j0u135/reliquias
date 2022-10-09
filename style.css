@@ -2,14 +2,6 @@
 html,
 body {
   width: 100%; /* This is needed :( */
-  background-color: #FFF;
-  background: url("public/home/01_bg_home.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0px;
 }
 
 .content {
@@ -39,6 +31,53 @@ body {
   bottom: 0;
 }
 
-@media only screen and (min-width:320px) and (max-width:480px){
+
+@media only screen and (min-width: 425px) {
+  body {
+    background-color: #FFF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-image: url(public/home/01_bg_home.png);
+}
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    background-image: url(public/home/01_m_bg_home.png);
+    background-attachment: fixed;
+}
+
+.content{
+  width: 100%;
+}
+
+.header-container{
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.instruction-container{
+  margin-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.controls-container{
+  display: block;
+}
+
+.button {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.footer {
+  position: relative;
+}
 
 }
