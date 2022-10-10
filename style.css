@@ -1,7 +1,8 @@
 /* Needed css */
 html,
 body {
-  width: 100%; /* This is needed :( */
+  width: 100%;
+  /* This is needed :( */
 }
 
 .content {
@@ -10,7 +11,7 @@ body {
   margin: auto;
 }
 
-.header-container{
+.header-container {
   padding-top: 15%;
   padding-bottom: 5%;
   padding-left: 18%;
@@ -44,41 +45,41 @@ body {
     background-repeat: no-repeat;
     margin: 0px;
     background-image: url(public/home/01_bg_home.png);
-}
+  }
 }
 
 @media only screen and (max-width: 425px) {
   body {
     background-image: url(public/home/01_m_bg_home.png);
-}
+  }
 
-.content{
-  width: 100%;
-}
+  .content {
+    width: 100%;
+  }
 
-.header-container{
-  padding-left: 15%;
-  padding-right: 15%;
+  .header-container {
+    padding-left: 15%;
+    padding-right: 15%;
 
-}
+  }
 
-.instruction-container{
-  margin-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
+  .instruction-container {
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
-.controls-container{
-  display: block;
-}
+  .controls-container {
+    display: block;
+  }
 
-.button {
-  padding-left: 20%;
-  padding-right: 20%;
-}
+  .button {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 
-.footer {
-  position: relative;
-}
+  .footer {
+    position: relative;
+  }
 
 }

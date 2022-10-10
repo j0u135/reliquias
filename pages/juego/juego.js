@@ -13,3 +13,11 @@ function hoverVideo(element) {
 function unhoverVideo(element) {
   element.setAttribute('src', '../../public/juego/02_ninos.png');
 }
+
+function hoverregresar(element) {
+  element.setAttribute('src', '../../public/juego/02_regresar_on.png');
+}
+
+function unhoverregresar(element) {
+  element.setAttribute('src', '../../public/juego/02_regresar.png');
+}

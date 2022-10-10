@@ -7,18 +7,31 @@
   <link rel="stylesheet" href="../../normalize.css">
   <link rel="stylesheet" href="./style.css">
   <script src="./infoadultos.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MJK4Q393E4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-MJK4Q393E4');
+  </script>
 </head>
 
 <body>
   <div>
     <div class="content">
       <div class="header-container">
-        <img src="/public/infoadultos/08_header.png" />
+        <picture>
+          <source srcset="/public/infoadultos/08_m_header.png" media="(max-width: 425px)">
+          <source srcset="/public/infoadultos/08_header.png">
+          <img src="/public/infoadultos/08_header.png" style="width: 100%;" />
+        </picture>
       </div>
       <div class="controls-container">
         <div class="button">
-          <a target="_blank" href="/pages/infoadultos/Info1_AdultoAFORE.pdf"><img
-              src="/public/infoadultos/08_info1.png" onmouseover="hoverinfo1(this);" onmouseout="unhoverinfo1(this);">
+          <a target="_blank" href="/pages/infoadultos/Info1_AdultoAFORE.pdf"><img src="/public/infoadultos/08_info1.png"
+              onmouseover="hoverinfo1(this);" onmouseout="unhoverinfo1(this);">
           </a>
         </div>
         <div class="button">
@@ -42,7 +55,11 @@
 
   </div>
   <div class="footer">
-    <img src="/public/home/footer.png" style="width: 100%; position: relative; top:5px" />
+    <picture>
+      <source srcset="/public/home/footer_mob.png" media="(max-width: 425px)">
+      <source srcset="/public/home/footer.png">
+      <img srcset="/public/home/footer.png" style="width: 100%; position: relative; top:5px">
+    </picture>
   </div>
 </body>
 

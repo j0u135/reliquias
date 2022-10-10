@@ -1,15 +1,8 @@
 /* Needed css */
 html,
 body {
-  width: 100%; /* This is needed :( */
-  background-color: #FFF;
-  background: url("../../public/juego/02_bg_juego.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0px;
+  width: 100%;
+  /* This is needed :( */
 }
 
 .content {
@@ -18,26 +11,83 @@ body {
   margin: auto;
 }
 
-.header-container{
+img {
+  width: 100%;
+}
+
+.header-container {
   padding-left: 18%;
   padding-right: 18%;
 
 }
 
 .controls-container {
+  justify-content: center;
   display: flex;
 }
 
 .button {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 5%;
+}
+
+.regresar-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  width: 100%;
+  bottom: -5rem;
+  height: 2.5rem;
 }
 
-@media only screen and (min-width:320px) and (max-width:480px){
+@media only screen and (min-width: 425px) {
+  body {
+    background-color: #FFF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-image: url(/public/juego/02_bg_juego.png);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    background-image: url(/public/juego/02_m_bg_juego.png);
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .header-container {
+    padding-left: 15%;
+    padding-right: 15%;
+
+  }
+
+  .controls-container {
+    display: block;
+  }
+
+  .button {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .regresar-container {
+    padding: 5%;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+  }
 
 }

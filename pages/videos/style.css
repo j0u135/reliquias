@@ -1,7 +1,8 @@
 /* Needed css */
 html,
 body {
-  width: 100%; /* This is needed :( */
+  width: 100%;
+  /* This is needed :( */
 }
 
 .content {
@@ -10,14 +11,14 @@ body {
   margin: auto;
 }
 
-.header-container{
+.header-container {
   padding-top: 8%;
   padding-bottom: 2%;
   padding-left: 25%;
   padding-right: 25%;
 }
 
-.regresar-container{
+.regresar-container {
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 35%;
@@ -32,12 +33,12 @@ body {
 }
 
 img {
-width: 100%;
+  width: 100%;
 }
 
 .button {
- width: 25%;
- padding: 1% 5%;
+  width: 25%;
+  padding: 1% 5%;
 }
 
 .footer {
@@ -57,40 +58,40 @@ width: 100%;
     background-repeat: no-repeat;
     margin: 0px;
     background-image: url(/public/videos/04_bg_video.png);
-}
+  }
 }
 
 @media only screen and (max-width: 425px) {
   body {
     background-image: url(/public/videos/04_m_bg_video.png);
-}
+  }
 
-.content{
-  width: 100%;
-}
+  .content {
+    width: 100%;
+  }
 
-.header-container{
-  padding-top: 15%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
+  .header-container {
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
-.controls-container{
-  display: block;
-}
+  .controls-container {
+    display: block;
+  }
 
-.button{
-  width: 60%;
-  padding-left: 20%;
-  padding-right: 20%;
-}
+  .button {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 
-.regresar-container{
-  padding: 5%;
-}
+  .regresar-container {
+    padding: 5%;
+  }
 
-.footer{
-  position: relative;
-}
+  .footer {
+    position: relative;
+  }
 
 }

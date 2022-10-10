@@ -1,7 +1,8 @@
 /* Needed css */
 html,
 body {
-  width: 100%; /* This is needed :( */
+  width: 100%;
+  /* This is needed :( */
 }
 
 .content {
@@ -10,7 +11,11 @@ body {
   margin: auto;
 }
 
-.header-container{
+img {
+  width: 100%;
+}
+
+.header-container {
   padding-top: 15%;
   padding-bottom: 5%;
   padding-left: 18%;
@@ -27,10 +32,18 @@ body {
   padding: 5%;
 }
 
+.regresar-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 .footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
+  height: 1.5rem;
 }
 
 @media only screen and (min-width: 425px) {
@@ -43,41 +56,45 @@ body {
     background-repeat: no-repeat;
     margin: 0px;
     background-image: url(/public/recursos/03_bg_recursos.png);
-}
+  }
 }
 
 @media only screen and (max-width: 425px) {
   body {
     background-image: url(/public/recursos/03_m_bg_recursos.png);
-}
+  }
 
-.content{
-  width: 100%;
-}
+  .content {
+    width: 100%;
+  }
 
-.header-container{
-  padding-left: 15%;
-  padding-right: 15%;
+  .header-container {
+    padding-left: 15%;
+    padding-right: 15%;
 
-}
+  }
 
-.instruction-container{
-  margin-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
+  .instruction-container {
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
-.controls-container{
-  display: block;
-}
+  .controls-container {
+    display: block;
+  }
 
-.button {
-  padding-left: 20%;
-  padding-right: 20%;
-}
+  .button {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 
-.footer {
-  position: relative;
-}
+  .regresar-container {
+    padding: 5%;
+  }
+
+  .footer {
+    position: relative;
+  }
 
 }

@@ -1,7 +1,8 @@
 /* Needed css */
 html,
 body {
-  width: 100%; /* This is needed :( */
+  width: 100%;
+  /* This is needed :( */
 }
 
 .content {
@@ -10,12 +11,12 @@ body {
   margin: auto;
 }
 
-.header-container{
+.header-container {
   padding-left: 35%;
   padding-right: 35%;
 }
 
-.regresar-container{
+.regresar-container {
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 35%;
@@ -52,35 +53,35 @@ img {
     background-repeat: no-repeat;
     margin: 0px;
     background-image: url(/public/infoninos/06_bg_ninos.png);
-}
+  }
 }
 
 @media only screen and (max-width: 425px) {
   body {
     background-image: url(/public/infoninos/06_m_bg_nino.png);
-}
+  }
 
-.content{
-  width: 100%;
-}
+  .content {
+    width: 100%;
+  }
 
-.header-container{
-  padding-left: 15%;
-  padding-right: 15%;
+  .header-container {
+    padding-left: 15%;
+    padding-right: 15%;
 
-}
+  }
 
-.button {
-  padding-left: 5%;
-  padding-right: 5%;
-}
+  .button {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-.regresar-container{
-  padding: 5%;
-}
+  .regresar-container {
+    padding: 5%;
+  }
 
-.footer {
-  position: relative;
-}
+  .footer {
+    position: relative;
+  }
 
 }
